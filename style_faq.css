@@ -65,6 +65,11 @@ main a {
     color: black;
 }
 
+main p {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
 footer {
     background-color: #0a53c1;
     height: 3rem;

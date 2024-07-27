@@ -24,25 +24,36 @@
         <form action="" method="post" enctype="multipart/form-data">
             <fieldset>
                 <legend>Contato</legend>
-            <label for="nome">Nome:</label>
-            <input type="text" placeholder="João" name="nome">
+            <h4><label for="nome">Nome:</label>
+            <input type="text" placeholder="João" name="nome"></h4>
+            
+            <h4><label for="email">Email:</label>
+            <input type="email" placeholder="name@email" name="email"></h4>
 
-            <label for="email">Email:</label>
-            <input type="email" placeholder="name@email" name="email">
-
-            <p><input type="radio" name="sexo" value="1">
+            <h4><input type="radio" name="sexo" value="1">
             <label for="sexo">Masculino</label>
             <input type="radio" name="sexo" value="2">
-            <label for="sexo">Feminino</label></p>
+            <label for="sexo">Feminino</label></h4>
 
-            <label for="estado">Estados</label>
+            <p><h4><label for="estado">Estados/Cidade</label>
             <select name="estados" id="estados">
                 <option value=""></option>
                 <option value="1">MG</option>
                 <option value="2">SP</option>
-                <option value="3">RJ</option>
-            </select>    
+                <option value="3">RJ</option></select>
+                <input type="text" placeholder="Varginha" name="ciade">
+            </h4></p>
 
+            <p><h4><label for="arquivo">Selecionar um arquivo</label>
+            <input type="file" name="arquivo"></h4></p>
+
+            <p><h4><label for="sugestao">Sugestão</label></h4></p>
+            <textarea name="sugestao" id="" cols="80" rows="3"></textarea>
+    
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
     </main>
     <footer>
         <p>© copyleft</p>

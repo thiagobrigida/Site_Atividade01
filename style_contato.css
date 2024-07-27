@@ -58,14 +58,16 @@ nav ul li a:hover {
 
 main {
     flex: 1;
-    display: block;
-    margin-bottom: 10px;
 }
 
-main form fieldset {
-    max-width: 5rem;
+.botoes button {
+    margin: 0 0.5rem;
+    background-color: #2c74e2;
+    color: white;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
 }
-
 
 footer {
     background-color: #0a53c1;
